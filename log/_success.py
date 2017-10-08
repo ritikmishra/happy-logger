@@ -11,7 +11,7 @@ def success(text, *args, **kwargs):
     :return: None
     """
     print(bcolors.OKGREEN + build_string("SUC", text), *args, **kwargs)
-
+    print(bcolors.NORMAL)
 
 if __name__ == '__main__':
     success("test")

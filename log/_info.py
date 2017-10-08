@@ -11,7 +11,7 @@ def info(text, *args, **kwargs):
     :return: None
     """
     print(bcolors.NORMAL + build_string("INFO", text), *args, **kwargs)
-
+    print(bcolors.NORMAL)
 
 if __name__ == '__main__':
     info("test")

@@ -11,6 +11,7 @@ def err(text, *args, **kwargs):
     :return: None
     """
     print(bcolors.FAIL + build_string("ERR", text), *args, **kwargs)
+    print(bcolors.NORMAL)
 
 
 if __name__ == '__main__':

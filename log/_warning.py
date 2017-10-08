@@ -11,7 +11,7 @@ def warn(text, *args, **kwargs):
     :return: None
     """
     print(bcolors.WARNING + build_string("WARN", text), *args, **kwargs)
-
+    print(bcolors.NORMAL)
 
 if __name__ == '__main__':
     warn("test")
