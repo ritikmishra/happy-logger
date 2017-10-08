@@ -1,10 +1,11 @@
+"""Contains properties for the logger, such as file path and line number."""
 funcs = []
 
 print_time = True
 print_file_path = False
 print_file_name = True
 print_line_num = True
-print_container = True
+
 
 def add_func(func):
     """
