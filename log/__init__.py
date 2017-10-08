@@ -1,3 +1,12 @@
+"""
+Nice logger that prints with colors, uses timestamps, and lets you add your own functions
+
+Functions:
+
+
+
+"""
+
 import log._error
 import log._info
 import log._success

@@ -2,7 +2,7 @@ from log import bcolors
 from log.string_builder import build_string
 
 
-def err(text):
+def err(text, *args, **kwargs):
     """
     Print out an error
     
@@ -10,7 +10,7 @@ def err(text):
     :type text: str
     :return: None
     """
-    print(bcolors.FAIL + build_string("ERR", text))
+    print(bcolors.FAIL + build_string("ERR", text), *args, **kwargs)
 
 
 if __name__ == '__main__':
