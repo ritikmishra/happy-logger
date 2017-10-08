@@ -1,7 +1,7 @@
-from log import *
+import log
 
 if __name__ == '__main__':
-    success.success("hello")
-    error.err("hello")
-    info.info("hello")
-    warning.warn("hello")
+    log.success("hello")
+    log.err("hello")
+    log.info("hello")
+    log.warn("hello")

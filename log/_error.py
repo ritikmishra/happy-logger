@@ -1,9 +1,5 @@
-import inspect
-from inspect import currentframe, getframeinfo
-import traceback
 from log import bcolors
 from log.string_builder import build_string
-import os
 
 
 def err(text):

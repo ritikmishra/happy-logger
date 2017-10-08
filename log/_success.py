@@ -1,12 +1,8 @@
-import inspect
-from inspect import currentframe, getframeinfo
-import traceback
 from log import bcolors
 from log.string_builder import build_string
-import os
 
 
-def warn(text):
+def success(text):
     """
     Print out an error
     
@@ -14,8 +10,8 @@ def warn(text):
     :type text: str
     :return: None
     """
-    print(bcolors.WARNING + build_string("WARN", text))
+    print(bcolors.OKGREEN + build_string("SUC", text))
 
 
 if __name__ == '__main__':
-    warn("test")
+    success("test")
